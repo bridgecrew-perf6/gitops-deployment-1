@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx
+          image: coregatekit/nginx-app:v1
           ports:
             - containerPort: 80
